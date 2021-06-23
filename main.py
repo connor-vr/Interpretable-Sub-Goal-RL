@@ -24,11 +24,11 @@ parser = argparse.ArgumentParser(description="PyTorch Scalable Agent")
 
 parser.add_argument("--env", type=str, 
                     # default='MiniGrid-DoorKey-RandGoal-5x6-v0',
-                    default='MiniGrid-DoorKey-Rand-6x6-v0',
+                    # default='MiniGrid-DoorKey-Rand-6x6-v0',
                     # default='MiniGrid-DoorKey-Rand-8x8-v0',
                     # default='MiniGrid-DoorKey-Rand-10x10-v0',
                     # default="MiniGrid-Empty-5x5-v0",
-                    # default="MiniGrid-DoorKey-5x5-v0",
+                    default="MiniGrid-DoorKey-5x5-v0",
                     # default="MiniGrid-DoorKey-6x6-v0",
                     help="Gym environment.")
 parser.add_argument("--mode", 
